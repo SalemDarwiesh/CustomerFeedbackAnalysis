@@ -22,7 +22,7 @@ CREATE TABLE stg_Recipe_Feedback (
 
 -- Bulk Insert
 BULK INSERT stg_Recipe_Feedback
-FROM 'D:\Data Course\Project\Recipe Reviews and User Feedback Dataset.csv'
+FROM '[ADD FILE PATH]'
 WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '\n',
